@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JUEGO TOTITO</title>
+	<link rel="stylesheet" type="text/css" href="estilostotito.css">
+	<script type="text/javascript" src="totito.js"></script>
+</head>
+<body>
+	<section id="principal">
+		<article id="comandos">
+			<h2>TOTITO</h2>
+			<h2>Eliga la ficha y coloque el nombre del jugardor</h2>
+			<h4>Jugador "X"</h4>
+			<input type="text" id="jugador1"><br>
+			<h4>Jugador "O"</h4>
+			<input type="text" id="jugador2"><br>
+			<input type="button" value="Comenzar" id="iniciar">
+			<label id="turnojugador"></label>	
+		</article>		
+          <article id="tablero">
+          	<input type="button" id="b0" onclick="colocar(this)">
+          	<input type="button" id="b1" onclick="colocar(this)">
+          	<input type="button" id="b2" onclick="colocar(this)">
+            <br>
+          	<input type="button" id="b3" onclick="colocar(this)">
+          	<input type="button" id="b4" onclick="colocar(this)">
+          	<input type="button" id="b5" onclick="colocar(this)">
+            <br>
+          	<input type="button" id="b6" onclick="colocar(this)">
+          	<input type="button" id="b7" onclick="colocar(this)">
+          	<input type="button" id="b8" onclick="colocar(this)">
+          </article>
+		</section>
+</body>
+</html>

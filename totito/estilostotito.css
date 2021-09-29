@@ -1,0 +1,78 @@
+body{
+	background-color: greenyellow;
+}
+section#principal{
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+article#comandos{
+	display: inline-block;
+	border: 3px solid lightblue;
+	min-height: 300px;
+	vertical-align: top;
+	width: 25%;
+	margin: 1em;
+	background-color: rgba(0, 0, 150, 0.2);
+
+}
+article#comandos h2{
+	font-family: arial;
+	font-weight: bold;
+	text-transform: uppercase;
+    color: red;
+    text-shadow: 2px 2px 3px black;
+    font-size: 1.8em;
+}
+
+article#comandos h4{
+font-family: calibri;
+	text-transform: uppercase;
+    color: darksalmon;
+    text-shadow: 2px 2px 3px black;
+    font-size: 1em; 
+}
+
+article#tablero{
+	border: 3px solid lightgray;
+	display: inline-block;
+	margin: 1.5em;
+	text-align: center;
+	width: 40%;
+    background-color: rgba(0, 0, 150, 0.2);
+}
+article#tablero input{
+	font-size: 3em;
+	height: 100px;
+	margin: 10px;
+	width: 100px;
+	color: white;
+}
+input[type="button"]#iniciar{
+	font-size: 0.8em;
+	margin: 2em 0;
+	padding: 0.7em;
+	background-color: lightgreen;
+	color: darkseagreen;
+}
+input[type="text"]{
+	font-weight: bold;
+	font-size: 1em;
+	margin: 0.3em;
+	padding: 0.1em;
+	color: blue;
+	background-color: lightgray ;
+}
+.botonInicial{
+	color: #77d;
+	background-color: #77d;
+}
+.botonJugador1{
+	color: #fff;
+	background-color: #d77;
+}
+.botonJugador2{
+	color: #fff;
+	background-color: #7d7;
+}
